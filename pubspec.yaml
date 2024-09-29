@@ -1,0 +1,42 @@
+name: pbl_sem_5
+description: "A new Flutter module project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # Menambahkan google_fonts ke dependencies
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Menambahkan aset
+  assets:
+    - assets/icons/Icon_kegiatan.png
+    - assets/icons/Icon_pencarian.png
+    - assets/icons/Icon_logo.png
+    - assets/icons/Icon_jti.png
+    - assets/icons/Icon_home.png
+    - assets/icons/Icon_profil.png
+    - assets/icons/Icon_history.png
+
+  # Identifikasi sebagai modul Flutter
+  module:
+    androidX: true
+    androidPackage: com.example.pbl_sem_5
+    iosBundleIdentifier: com.example.flutterModule1
